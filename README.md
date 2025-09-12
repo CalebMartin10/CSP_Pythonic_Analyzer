@@ -1,1 +1,5 @@
 # CSP_Pythonic_Analyzer
+This tool takes the sample.txt file and creatse a report on how many words are within the text file, how many of those words are unique, how many are longer than 3 characters, and what the top five most used words are. It also creates seperate functions for each of these capabilities, allowing you to use them in other projects if need be.
+To run this tool, download the .py file and the text file and run it through vscode (preffered method since you could change the target file).
+
+I refactored the unpythonic_analyzer by renaming variables to more descriptive and meaningful names like word instead of word_item. I also included proper spacing between operaters and operands, and definitions between eachother. I also added a with statement so the accessing of the sample text is properly handled with a context manager. I also used a list comprehension to create the list of long_words so that I would not have to use a confusing nest of for statements. I also used the collection.counter object to count the number of times a word appeared in the sample text.
