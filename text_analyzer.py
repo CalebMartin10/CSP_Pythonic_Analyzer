@@ -6,6 +6,7 @@ def analyze_text(file_name):
         text_content = file.read()
         return text_content.lower().split()
 
+
 def count_words(file_name):
     """
     Anazlyzes a text file and counts the unique words wihtin it.
@@ -14,12 +15,14 @@ def count_words(file_name):
     from collections import Counter
     return Counter(word_list)
 
+
 def count_long_words(file_name):
     """
     Anazlyzes a text file and counts the words longer than 3 characters within it.
     """
     word_list = analyze_text(file_name)
     return [word for word in word_list if len(word) > 3]
+
 
 def print_word_counts(file_name):
     """
