@@ -1,0 +1,2 @@
+Hopefully this code works because it didn't want to recognize this sample text. It worked , I am happy that this worked.
+The only problem is that it doesn't properly count words with a period at the end of them.
