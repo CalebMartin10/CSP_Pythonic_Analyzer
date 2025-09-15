@@ -3,3 +3,5 @@ This tool takes the sample.txt file and creatse a report on how many words are w
 To run this tool, download the .py file and the text file and run it through vscode (preffered method since you could change the target file).
 
 I refactored the unpythonic_analyzer by renaming variables to more descriptive and meaningful names like word instead of word_item. I also included proper spacing between operaters and operands, and definitions between eachother. I also added a with statement so the accessing of the sample text is properly handled with a context manager. I also used a list comprehension to create the list of long_words so that I would not have to use a confusing nest of for statements. I also used the collection.counter object to count the number of times a word appeared in the sample text.
+
+Video explaining the code: https://youtu.be/bSJZhWs0d1g
